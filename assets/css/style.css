@@ -85,6 +85,7 @@ transform: scale(1.1);
     height:600px ; 
     width: 100%;
     overflow: hidden;
+    position:relative; /*its child #cover-text was set as position:absolute*/
 
 }
 
@@ -106,6 +107,37 @@ transform: scale(1.1);
     bottom: 30px;
     right: 150px;
 
-    position: absolute;
+    position: absolute; /* so its necessary to set its parent as position:relative *hero-outer*/
 }
 
+
+/*-- club-ethos--*/
+#club-ethos{
+
+height: 600px;
+}
+
+#left-about{
+padding-top: 30px;
+width: 33%;
+float:left;
+background-color: blue;
+}
+
+
+#right-about{
+    padding-top: 30px;
+    width: 33%;
+    float:right;
+    background-color:silver;
+    }
+    
+
+
+
+#center-about{
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
+    
+}
