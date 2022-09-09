@@ -121,7 +121,6 @@ height: 600px;
 padding-top: 30px;
 width: 33%;
 float:left;
-background-color: blue;
 }
 
 
@@ -129,7 +128,6 @@ background-color: blue;
     padding-top: 30px;
     width: 33%;
     float:right;
-    background-color:silver;
     }
     
 
@@ -141,3 +139,35 @@ background-color: blue;
     background-color: green;
     
 }
+
+hr{
+  border-top: 1px solid #3a3a3a;  
+  width: 100%;
+  margin: 5px 0;
+}
+
+.left-about-heading, .right-about-heading{
+width: 60%;
+
+line-height: 20px;
+clear:both; /*By setting clear: both we ensure that  each content block is aligned vertically. */
+margin-bottom: 50px;
+
+}
+
+
+.left-about-heading{
+    float:right;
+}
+
+.right-about-heading{
+float:left;
+}
+
+.right-about-heading h2{
+text-align: right;
+    }
+
+    .right-about-heading p{
+        text-align: right;
+            }
